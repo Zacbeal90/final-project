@@ -1,0 +1,6 @@
+/*Don't display M4RS ringtone info*/
+
+p.ringtonem4r
+{
+display:none;
+}

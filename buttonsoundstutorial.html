@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <h1> STAR WARS Soundboard</h1>
+<style>
+h1 {
+  color: yellow; font-size: 50px
+}
+body {
+  background-image: url(star1.jpg);
+}
+p {
+  color: yellow; font-size: 50px;
+}
+nav#nav1{ margin-top: 24px; }
+nav#nav1 > a{ background: white; color:#000; padding:10px; text-decoration:none; border-radius:5px; font-family:"Arial Black", Gadget, sans-serif; }
+nav#nav1 > a:hover{ background: red; color: blue; }
+nav#nav1 > a:active{ background: blue; color: red; }
+nav#nav2{ margin-top: 24px; }
+nav#nav2 > a{ background: white; color:#000; padding:10px; text-decoration:none; border-radius:5px; font-family:"Arial Black", Gadget, sans-serif; }
+nav#nav2 > a:hover{ background: red; color: blue;}
+nav#nav2 > a:active{ background: blue; color: red; }
+</style>
+<script>
+var jabba = new Audio();
+jabba.src = "jabba-the-hutt-laughing.mp3";
+var failed = new Audio();
+failed.src = "failed.mp3";
+var lightsaber = new Audio();
+lightsaber.src = "Lightsaber Turn On-SoundBible.com-1637663395.mp3";
+var r2d2 = new Audio();
+r2d2.src = "R2D2-SoundBible.com-460754772.mp3";
+var r2 = new Audio();
+r2.src = "R2D2 Again-SoundBible.com-1304677791.mp3"
+var beep = new Audio();
+beep.src = "blaster-firing.mp3";
+var breath = new Audio();
+breath.src = "vaderbreathing.mp3"
+var laugh = new Audio();
+laugh.src = "laughfuzzball.mp3"
+var odds = new Audio();
+odds.src = "odds.mp3"
+var yoda = new Audio();
+yoda.src = "yodalaughing.mp3"
+var nerfherder = new Audio();
+nerfherder.src = "nerfherder.mp3"
+
+</script>
+</head>
+<body>
+  <nav id="nav1">
+    <a href="#" onmouseover="beep.play()" onmousedown="jabba.play()">Jabba The Hutt Laughing</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="failed.play()">You Have Failed Me for the Last Time</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="lightsaber.play()">Lightsaber Turning On</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="r2d2.play()">R2-D2 #1</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="r2.play()">R2-D2 #2</a>
+  </nav>
+  <nav id="nav2">
+    <a href="#" onmouseover="beep.play()" onmousedown="breath.play()">Darth Vader Breathing</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="laugh.play()">Laugh it up Fuzzball</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="odds.play()">Never Tell Me The Odds</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="yoda.play()">Yoda Laughing</a>
+    <a href="#" onmouseover="beep.play()" onmousedown="nerfherder.play()">Nerfherder</a>
+  </nav>
+  <p>May the Force Be With You All</p>
+</body>
+</html>

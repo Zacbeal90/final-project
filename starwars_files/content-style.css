@@ -1,0 +1,158 @@
+/*Body Information*/
+
+body      {font-size: 100%; background-color: #484848; color: #ffcc00;}
+a:link    {color: #3377ff; background-color: transparent; text-decoration: none;}
+a:visited {color: #3333ff; background-color: transparent; text-decoration: none;}
+a:active  {color: #ff0000; background-color: transparent; text-decoration: underline;}
+a:hover   {color: #ff0000; background-color: transparent; text-decoration: underline;}
+
+span.smtext   {font-size: 80%;}
+span.new {font-size:75%;background-color: transparent;color: #ff0000;}
+span.added {font-size:65%;background-color: transparent;}
+span.rednew {font-size:125%;background-color: transparent;color: #ff0000;font-family:arial;font-weight:bold;}
+span.greenbold {background-color: transparent;color: #00ff00;font-weight:bold;}
+a.bold {font-weight:bold;}
+
+img, table
+{
+border: none;
+border: 0;
+}
+
+.center
+{
+text-align: center;
+}
+
+/*Content Boxes*/
+
+div#box-tl
+{
+margin: 0;
+padding: 0;
+position: relative;
+top: -18px;
+width: 204px;
+height: 18px;
+background: url(/images/box-tl-bg.png) bottom left no-repeat;
+}
+
+div#box-br
+{
+float: right;
+margin: 0;
+padding: 0;
+position: relative;
+top: -2px;
+left: 0px;
+width: 204px;
+height: 16px;
+background: url(/images/box-br-bg.png) bottom right no-repeat;
+}
+
+h3.title
+{
+position: relative;
+top: -15px;
+left: 8px;
+height: 30px;
+padding-left: 18px;
+padding-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+text-indent: 15px;
+background: url(/images/icon_space_orange.png) left no-repeat;
+margin: 0;
+}
+
+span.title
+{
+font-family: sans-serif;
+font-size: 90%;
+font-weight: bold;
+}
+
+span.priceat
+{
+font-family: sans-serif;
+font-size: 70%;
+}
+
+div.content
+{
+margin-left: 10px;
+margin-right: 10px;
+text-align: left;
+}
+
+
+/*Quotes Content*/
+
+
+span.date {font-size:100%;font-weight: bold;color: #00ff00}
+p.margin {margin-left: 5mm}
+span.char {font-size:100%;font-weight: bold;background-color: transparent;color: #00ff00}
+span.quote {font-style: italic;}
+span.qt {font-style: italic;}
+span.qtbf {font-size:130%; font-family: arial; font-weight: bold; margin-left: 5px; color: #999999;}
+font.char {font-size:100%;font-weight: bold;background-color: transparent;color: #00ff00}
+
+/*Links Content*/
+
+span.moviewavs
+{
+font: 110% sans-serif;
+font-weight: bold;
+}
+span.sitelinks
+{
+}
+
+
+/*Sounds Content*/
+
+a.sounds
+{
+font-weight: bold;
+}
+
+/*Index*/
+
+div.index
+{
+border-top:2px solid gray;
+border-bottom:2px solid gray;
+padding: 10px;
+}
+ul.index, ul.index ul, ul.index ul ul
+{
+list-style-type:none;
+display: inline;
+padding: 0px;
+}
+span.indhead
+{
+font-weight:bold;
+font-size:130%;
+}
+a.index
+{
+font-weight:bold;
+font-size:115%;
+}
+span.inddesc
+{
+font-size:80%;
+}
+
+/*Old Menu*/
+
+div#menuold p
+{
+font-family:arial;
+font-size:90%;
+text-align: center;
+margin:0px;
+padding:8px;
+}
+tr.jg {display: none;}
